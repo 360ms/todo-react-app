@@ -1,0 +1,30 @@
+.todo {
+    padding: 50px;
+    max-width: 50%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.todo__form {
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    padding-bottom: 20px;
+}
+
+.todo__list {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.todo__item {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 960px) {
+    .todo{
+        max-width: inherit;
+    }
+}
